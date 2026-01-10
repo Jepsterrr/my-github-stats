@@ -1,18 +1,23 @@
 import {ContributionData, Language} from '../Types';
 import {UserStats} from '../config';
-
-const statsTemplate = (username: string) =>
-	`https://raw.githubusercontent.com/${username}/my-github-stats/main/github-user-stats.json`;
+import * as fs from 'fs';
+import path from 'path';
 
 export async function getUsersStatsFromGithub(usernames: string[]) {
 	const stats: UserStats[] = [];
 
 	for (const username of usernames) {
-		const resp = await fetch(statsTemplate(username));
+		const localPath = path.join(process.cwd(), 'github-user-stats.json');
 
-		const userStats = await resp.json();
+		if (fs.existsSync(localPath)) {
+			console.log(`Loading local stats for ${username}...`);
+			const data = fs.readFileSync(localPath, 'utf8');
+			stats.push(JSON.parse(data));
+		} else {
+			throw new Error(`Could not find local stats file at ${localPath}. Run generate-stats first.`);
+		}
 
-		stats.push(userStats);
+		return stats;
 	}
 
 	return stats;
@@ -131,4 +136,17 @@ export async function getUserStats(usernames: string[]) {
 	sortAndMergeContributionData(userStats);
 	userStats = sortAndMergeTopLanguages(userStats);
 	return userStats;
+}
+
+if (require.main === module) {
+	const usernames = ['jepsterrr'];
+	getUserStats(usernames)
+		.then((stats) => {
+			fs.writeFileSync('./input.json', JSON.stringify({userStats: stats}, null, 2));
+			console.log('Successfully updated input.json with fresh stats!');
+		})
+		.catch((err) => {
+			console.error('Error updating stats:', err);
+			process.exit(1);
+		});
 }

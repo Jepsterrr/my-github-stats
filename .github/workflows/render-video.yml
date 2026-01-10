@@ -38,6 +38,13 @@ jobs:
         with:
           cmd: install
 
+      - name: Fetch Stats
+        uses: borales/actions-yarn@v5
+        with:
+          cmd: stats:fetch
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
       - name: Render Video
         uses: borales/actions-yarn@v5
         with:
@@ -46,6 +53,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
       - name: Auto commit
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Update gifs with stats"
