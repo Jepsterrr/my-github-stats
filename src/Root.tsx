@@ -13,12 +13,9 @@ export const RemotionRoot = () => {
 	const calculateMetadata: CalculateMetadataFunction<MainProps> = async (
 		props
 	) => {
-		if (props.userStats && props.userStats.username === "jepsterrr") {
-			return { props };
-		}
-
 		const {usernames} = getInputProps();
-		const userStats = await getUserStats((usernames as string[]) || ["jepsterrr"]);
+		const userList = (usernames as string[]) || ["jepsterrr"];
+		const userStats = await getUserStats(userList);
 
 		return {
 			props: {
