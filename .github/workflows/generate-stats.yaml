@@ -4,7 +4,7 @@ on:
     - cron: "0 0 * * *"
   push:
     branches: [main]
-  paths-ignore:
+    paths-ignore:
       - 'github-user-stats.json'
   workflow_dispatch:
 
@@ -24,5 +24,5 @@ jobs:
       - name: Auto commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update github-user-stats.json [skip ci]"
+          commit_message: "Update github-user-stats.json "
           file_pattern: 'github-user-stats.json'
