@@ -27,7 +27,7 @@ export function LanguagesContent({userStats}: {userStats: UserStats}) {
 			<div className="bg-[#282a36] font-mono rounded-xl p-2 shadow-2xl  h-full">
 				<div
 					style={{opacity: interpolateFactory(frame, 1 / 5, 1)}}
-					className="bg-white rounded-lg grow h-full shadow-2xl"
+					className="bg-[#282a36] rounded-lg grow h-full shadow-2xl"
 				>
 					<div className="grid grid-rows-3 grid-cols-3 gap-2">
 						{userStats.topLanguages.slice(0, 9).map((lang, i) => (
