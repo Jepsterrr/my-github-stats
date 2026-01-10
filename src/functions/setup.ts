@@ -4,6 +4,8 @@ import * as fs from 'fs';
 import path from 'path';
 
 export async function getUsersStatsFromGithub(usernames: string[]) {
+	if (typeof window !== 'undefined') return [];
+	
 	const stats: UserStats[] = [];
 	if (!usernames || !Array.isArray(usernames)) return stats;
 
