@@ -5,6 +5,7 @@ import path from 'path';
 
 export async function getUsersStatsFromGithub(usernames: string[]) {
 	const stats: UserStats[] = [];
+	if (!usernames || !Array.isArray(usernames)) return stats;
 
 	for (const username of usernames) {
 		const localPath = path.join(process.cwd(), 'github-user-stats.json');
