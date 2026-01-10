@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'github-user-stats.json'
+      - 'out/**'
   workflow_dispatch:
 
 jobs:
