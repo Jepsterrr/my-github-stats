@@ -1,8 +1,8 @@
-import {ContributionDay, Language} from '../Types';
+import {ContributionData, Language} from '../Types';
 import {UserStats} from '../config';
 
 const statsTemplate = (username: string) =>
-	`https://raw.githubusercontent.com/${username}/stats/main/github-user-stats.json`;
+	`https://raw.githubusercontent.com/${username}/my-github-stats/main/github-user-stats.json`;
 
 export async function getUsersStatsFromGithub(usernames: string[]) {
 	const stats: UserStats[] = [];
@@ -62,7 +62,7 @@ export function mergeUsersStats(stats: UserStats[]): UserStats {
 }
 
 export function convertWeeksToDays(stats: UserStats) {
-	const days: ContributionDay[] = [];
+	const days: ContributionData[] = [];
 
 	for (const week of stats.contributionsCollection.contributionCalendar.weeks) {
 		days.push(...week.contributionDays);
@@ -73,7 +73,7 @@ export function convertWeeksToDays(stats: UserStats) {
 
 export function sortAndMergeContributionData(userStats: UserStats) {
 	userStats.contributionCalendar.sort(
-		(a: ContributionDay, b: ContributionDay) => {
+		(a: ContributionData, b: ContributionData) => {
 			// @ts-expect-error This is a valid comparison
 			return new Date(a.date) - new Date(b.date);
 		}
