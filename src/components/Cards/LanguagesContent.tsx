@@ -44,7 +44,7 @@ export function LanguagesContent({userStats}: {userStats: UserStats}) {
 								>
 									{lang.languageName}
 								</p>
-								<p className="text-black text-sm font-bold text-center my-0">
+								<p className="text-white text-sm font-bold text-center my-0">
 									{percentage(lang.value, userStats.codeByteTotal).toFixed(1)}%
 								</p>
 							</div>
