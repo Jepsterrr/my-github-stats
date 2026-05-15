@@ -14,7 +14,7 @@
   "linesAdded": 0,
   "linesDeleted": 0,
   "commitCount": 0,
-  "totalCommits": 721,
+  "totalCommits": 723,
   "totalPullRequests": 4,
   "totalPullRequestReviews": 1,
   "codeByteTotal": 1886224,
@@ -69,21 +69,21 @@
     }
   ],
   "forkCount": 0,
-  "starCount": 0,
-  "starsGiven": 1,
+  "starCount": 3,
+  "starsGiven": 4,
   "followers": 0,
   "following": 0,
   "repositoriesContributedTo": 2,
   "discussionsStarted": 0,
   "discussionsAnswered": 0,
-  "totalContributions": 774,
+  "totalContributions": 776,
   "contributionStats": {
-    "longestStreak": 126,
-    "currentStreak": 126,
+    "longestStreak": 127,
+    "currentStreak": 127,
     "mostActiveDay": "Tuesday",
     "averagePerDay": 0.25,
     "averagePerWeek": 1.74,
-    "averagePerMonth": 7.44,
+    "averagePerMonth": 7.45,
     "monthlyBreakdown": [
       {
         "month": "2017-11",
@@ -495,7 +495,7 @@
       },
       {
         "month": "2026-05",
-        "contributions": 44
+        "contributions": 46
       }
     ]
   },
@@ -506,10 +506,10 @@
     "archivedRepos": 0,
     "forkedRepos": 0,
     "originalRepos": 14,
-    "activeRepos": 4,
-    "reposWithStars": 0,
+    "activeRepos": 5,
+    "reposWithStars": 3,
     "reposCreatedThisYear": 2,
-    "averageStarsPerRepo": 0
+    "averageStarsPerRepo": 0.21
   },
   "computedStats": {
     "totalRepos": 14,
@@ -518,10 +518,10 @@
     "archivedRepos": 0,
     "forkedRepos": 0,
     "originalRepos": 14,
-    "activeRepos": 4,
-    "reposWithStars": 0,
+    "activeRepos": 5,
+    "reposWithStars": 3,
     "reposCreatedThisYear": 2,
-    "averageStarsPerRepo": 0,
+    "averageStarsPerRepo": 0.21,
     "languageCount": 8,
     "primaryLanguage": "TypeScript",
     "primaryLanguageThisYear": "TypeScript",
@@ -529,48 +529,48 @@
       {
         "languageName": "TypeScript",
         "color": "#3178c6",
-        "value": 1154711,
-        "percentage": 97.57
+        "value": 1236556,
+        "percentage": 95.47
       },
       {
         "languageName": "CSS",
         "color": "#663399",
-        "value": 20702,
-        "percentage": 1.75
+        "value": 48045,
+        "percentage": 3.71
       },
       {
         "languageName": "HTML",
         "color": "#e34c26",
         "value": 6424,
-        "percentage": 0.54
+        "percentage": 0.5
       },
       {
         "languageName": "JavaScript",
         "color": "#f1e05a",
-        "value": 1579,
-        "percentage": 0.13
+        "value": 4232,
+        "percentage": 0.33
       }
     ],
     "totalTopics": 0,
     "topTopics": [],
     "allTopics": [],
-    "contributionsThisYear": 486,
+    "contributionsThisYear": 488,
     "contributionsLastYear": 271,
-    "yearOverYearGrowth": 79.34,
+    "yearOverYearGrowth": 80.07,
     "mostProductiveMonth": {
       "month": "2026-04",
       "contributions": 214
     }
   },
   "contributionsCollection": {
-    "totalCommitContributions": 688,
+    "totalCommitContributions": 690,
     "restrictedContributionsCount": 69,
     "totalIssueContributions": 0,
     "totalRepositoryContributions": 11,
     "totalPullRequestContributions": 4,
     "totalPullRequestReviewContributions": 1,
     "contributionCalendar": {
-      "totalContributions": 774,
+      "totalContributions": 776,
       "weeks": [
         {
           "contributionDays": [
@@ -14871,8 +14871,12 @@
               "date": "2026-05-13"
             },
             {
-              "contributionCount": 0,
+              "contributionCount": 2,
               "date": "2026-05-14"
+            },
+            {
+              "contributionCount": 0,
+              "date": "2026-05-15"
             }
           ]
         }
@@ -14883,15 +14887,41 @@
     {
       "name": "tkl-nexus",
       "description": null,
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "isArchived": false,
       "isFork": false,
       "isPrivate": false,
       "primaryLanguage": "TypeScript",
       "topics": [],
-      "updatedAt": "2026-05-12T10:15:43Z",
+      "updatedAt": "2026-05-14T15:42:50Z",
       "createdAt": "2026-04-01T13:11:11Z"
+    },
+    {
+      "name": "essex-shot-tracker",
+      "description": null,
+      "stars": 1,
+      "forks": 0,
+      "isArchived": false,
+      "isFork": false,
+      "isPrivate": false,
+      "primaryLanguage": "TypeScript",
+      "topics": [],
+      "updatedAt": "2026-05-14T15:42:48Z",
+      "createdAt": "2025-07-15T13:48:48Z"
+    },
+    {
+      "name": "portfolio",
+      "description": null,
+      "stars": 1,
+      "forks": 0,
+      "isArchived": false,
+      "isFork": false,
+      "isPrivate": true,
+      "primaryLanguage": "TypeScript",
+      "topics": [],
+      "updatedAt": "2026-05-14T15:42:42Z",
+      "createdAt": "2025-06-02T16:39:47Z"
     },
     {
       "name": "my-github-stats",
@@ -14903,7 +14933,7 @@
       "isPrivate": false,
       "primaryLanguage": "TypeScript",
       "topics": [],
-      "updatedAt": "2026-05-13T03:02:04Z",
+      "updatedAt": "2026-05-14T02:53:54Z",
       "createdAt": "2026-01-10T16:25:29Z"
     },
     {
@@ -14972,19 +15002,6 @@
       "createdAt": "2025-09-15T19:23:28Z"
     },
     {
-      "name": "essex-shot-tracker",
-      "description": null,
-      "stars": 0,
-      "forks": 0,
-      "isArchived": false,
-      "isFork": false,
-      "isPrivate": false,
-      "primaryLanguage": "TypeScript",
-      "topics": [],
-      "updatedAt": "2026-05-09T22:56:29Z",
-      "createdAt": "2025-07-15T13:48:48Z"
-    },
-    {
       "name": "jepsterrr",
       "description": null,
       "stars": 0,
@@ -14996,22 +15013,9 @@
       "topics": [],
       "updatedAt": "2026-04-21T13:37:18Z",
       "createdAt": "2025-06-07T22:21:27Z"
-    },
-    {
-      "name": "portfolio",
-      "description": null,
-      "stars": 0,
-      "forks": 0,
-      "isArchived": false,
-      "isFork": false,
-      "isPrivate": true,
-      "primaryLanguage": "TypeScript",
-      "topics": [],
-      "updatedAt": "2025-07-04T17:26:56Z",
-      "createdAt": "2025-06-02T16:39:47Z"
     }
   ],
   "closedIssues": 1,
   "openIssues": 0,
-  "fetchedAt": 1778726660396
+  "fetchedAt": 1778813081992
 }
