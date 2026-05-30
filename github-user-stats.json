@@ -14,7 +14,7 @@
   "linesAdded": 0,
   "linesDeleted": 0,
   "commitCount": 0,
-  "totalCommits": 722,
+  "totalCommits": 724,
   "totalPullRequests": 4,
   "totalPullRequestReviews": 1,
   "codeByteTotal": 1809698,
@@ -70,14 +70,14 @@
   "repositoriesContributedTo": 2,
   "discussionsStarted": 0,
   "discussionsAnswered": 0,
-  "totalContributions": 808,
+  "totalContributions": 810,
   "contributionStats": {
-    "longestStreak": 141,
-    "currentStreak": 141,
+    "longestStreak": 142,
+    "currentStreak": 142,
     "mostActiveDay": "Tuesday",
     "averagePerDay": 0.26,
-    "averagePerWeek": 1.8,
-    "averagePerMonth": 7.73,
+    "averagePerWeek": 1.81,
+    "averagePerMonth": 7.74,
     "monthlyBreakdown": [
       {
         "month": "2017-11",
@@ -489,7 +489,7 @@
       },
       {
         "month": "2026-05",
-        "contributions": 78
+        "contributions": 80
       }
     ],
     "yearlyBreakdown": [
@@ -531,7 +531,7 @@
       },
       {
         "year": "2026",
-        "contributions": 520
+        "contributions": 522
       }
     ],
     "peakDay": {
@@ -594,23 +594,23 @@
     "totalTopics": 0,
     "topTopics": [],
     "allTopics": [],
-    "contributionsThisYear": 520,
+    "contributionsThisYear": 522,
     "contributionsLastYear": 271,
-    "yearOverYearGrowth": 91.88,
+    "yearOverYearGrowth": 92.62,
     "mostProductiveMonth": {
       "month": "2026-04",
       "contributions": 214
     }
   },
   "contributionsCollection": {
-    "totalCommitContributions": 722,
+    "totalCommitContributions": 724,
     "restrictedContributionsCount": 69,
     "totalIssueContributions": 0,
     "totalRepositoryContributions": 11,
     "totalPullRequestContributions": 4,
     "totalPullRequestReviewContributions": 1,
     "contributionCalendar": {
-      "totalContributions": 808,
+      "totalContributions": 810,
       "weeks": [
         {
           "contributionDays": [
@@ -14979,8 +14979,12 @@
               "date": "2026-05-28"
             },
             {
-              "contributionCount": 0,
+              "contributionCount": 2,
               "date": "2026-05-29"
+            },
+            {
+              "contributionCount": 0,
+              "date": "2026-05-30"
             }
           ]
         }
@@ -15097,7 +15101,7 @@
       "isPrivate": false,
       "primaryLanguage": "TypeScript",
       "topics": [],
-      "updatedAt": "2026-05-28T02:53:47Z",
+      "updatedAt": "2026-05-29T02:53:59Z",
       "createdAt": "2026-01-10T16:25:29Z"
     },
     {
@@ -15131,9 +15135,9 @@
   ],
   "closedIssues": 1,
   "openIssues": 0,
-  "fetchedAt": 1780022980027,
+  "fetchedAt": 1780108984042,
   "schemaVersion": 2,
-  "generatedAt": "2026-05-29T02:49:40.027Z",
+  "generatedAt": "2026-05-30T02:43:04.042Z",
   "profile": {
     "name": "Jesper Holmberg",
     "login": "Jepsterrr",
@@ -15149,15 +15153,15 @@
     "following": 0
   },
   "profileContributions": {
-    "totalContributions": 808,
-    "totalCommitContributions": 722,
+    "totalContributions": 810,
+    "totalCommitContributions": 724,
     "restrictedContributionsCount": 69,
     "totalIssueContributions": 0,
     "totalRepositoryContributions": 11,
     "totalPullRequestContributions": 4,
     "totalPullRequestReviewContributions": 1,
     "contributionCalendar": {
-      "totalContributions": 808,
+      "totalContributions": 810,
       "weeks": [
         {
           "contributionDays": [
@@ -29526,20 +29530,24 @@
               "date": "2026-05-28"
             },
             {
-              "contributionCount": 0,
+              "contributionCount": 2,
               "date": "2026-05-29"
+            },
+            {
+              "contributionCount": 0,
+              "date": "2026-05-30"
             }
           ]
         }
       ]
     },
     "stats": {
-      "longestStreak": 141,
-      "currentStreak": 141,
+      "longestStreak": 142,
+      "currentStreak": 142,
       "mostActiveDay": "Tuesday",
       "averagePerDay": 0.26,
-      "averagePerWeek": 1.8,
-      "averagePerMonth": 7.73,
+      "averagePerWeek": 1.81,
+      "averagePerMonth": 7.74,
       "monthlyBreakdown": [
         {
           "month": "2017-11",
@@ -29951,7 +29959,7 @@
         },
         {
           "month": "2026-05",
-          "contributions": 78
+          "contributions": 80
         }
       ],
       "yearlyBreakdown": [
@@ -29993,7 +30001,7 @@
         },
         {
           "year": "2026",
-          "contributions": 520
+          "contributions": 522
         }
       ],
       "peakDay": {
@@ -30079,7 +30087,7 @@
         "nameWithOwner": "Jepsterrr/my-github-stats",
         "owner": "Jepsterrr",
         "counts": {
-          "commits": 322,
+          "commits": 324,
           "issues": 0,
           "pullRequests": 0,
           "pullRequestReviews": 0,
@@ -30241,7 +30249,7 @@
         "pullRequestReviews": 0,
         "repositoryCreations": 1
       },
-      "metadataFetchedAt": 1780022910456
+      "metadataFetchedAt": 1780108912937
     },
     {
       "id": "R_kgDOP0S5Dg",
@@ -30297,7 +30305,7 @@
         "pullRequestReviews": 0,
         "repositoryCreations": 1
       },
-      "metadataFetchedAt": 1780022910456
+      "metadataFetchedAt": 1780108912937
     },
     {
       "id": "R_kgDOPM8EhA",
@@ -30353,7 +30361,7 @@
         "pullRequestReviews": 1,
         "repositoryCreations": 1
       },
-      "metadataFetchedAt": 1780022911478
+      "metadataFetchedAt": 1780108913896
     },
     {
       "id": "R_kgDOPwfLPw",
@@ -30415,7 +30423,7 @@
         "pullRequestReviews": 0,
         "repositoryCreations": 1
       },
-      "metadataFetchedAt": 1780022910456
+      "metadataFetchedAt": 1780108912937
     },
     {
       "id": "R_kgDOPzD1Ew",
@@ -30477,7 +30485,7 @@
         "pullRequestReviews": 0,
         "repositoryCreations": 1
       },
-      "metadataFetchedAt": 1780022910456
+      "metadataFetchedAt": 1780108912937
     },
     {
       "id": "R_kgDOO34CfQ",
@@ -30514,7 +30522,7 @@
         "pullRequestReviews": 0,
         "repositoryCreations": 1
       },
-      "metadataFetchedAt": 1780022911478
+      "metadataFetchedAt": 1780108913896
     },
     {
       "id": "R_kgDOQ3U1Jw",
@@ -30530,9 +30538,9 @@
       "visibility": "PUBLIC",
       "viewerPermission": "ADMIN",
       "createdAt": "2026-01-10T16:25:29Z",
-      "updatedAt": "2026-05-28T02:53:47Z",
-      "pushedAt": "2026-05-28T02:53:43Z",
-      "defaultBranchOid": "d19a3ac1b69f4e1180c92c7430b8fb0287432f2c",
+      "updatedAt": "2026-05-29T02:53:59Z",
+      "pushedAt": "2026-05-29T02:53:55Z",
+      "defaultBranchOid": "cc0a24aedc7b7dd7debc88761371de0772b269f6",
       "stars": 0,
       "forks": 0,
       "primaryLanguage": "TypeScript",
@@ -30564,13 +30572,13 @@
         "owned"
       ],
       "contributionCounts": {
-        "commits": 322,
+        "commits": 324,
         "issues": 0,
         "pullRequests": 0,
         "pullRequestReviews": 0,
         "repositoryCreations": 1
       },
-      "metadataFetchedAt": 1780022911478
+      "metadataFetchedAt": 1780108913896
     },
     {
       "id": "R_kgDOPxo8aw",
@@ -30638,7 +30646,7 @@
         "pullRequestReviews": 0,
         "repositoryCreations": 1
       },
-      "metadataFetchedAt": 1780022910456
+      "metadataFetchedAt": 1780108912937
     },
     {
       "id": "R_kgDOLbK5jw",
@@ -30682,7 +30690,7 @@
         "pullRequestReviews": 0,
         "repositoryCreations": 1
       },
-      "metadataFetchedAt": 1780022907437
+      "metadataFetchedAt": 1780108909951
     },
     {
       "id": "R_kgDOOwxw2Q",
@@ -30744,7 +30752,7 @@
         "pullRequestReviews": 0,
         "repositoryCreations": 1
       },
-      "metadataFetchedAt": 1780022910456
+      "metadataFetchedAt": 1780108912937
     },
     {
       "id": "R_kgDOR29Npg",
@@ -30806,7 +30814,7 @@
         "pullRequestReviews": 0,
         "repositoryCreations": 1
       },
-      "metadataFetchedAt": 1780022911478
+      "metadataFetchedAt": 1780108913896
     },
     {
       "id": "R_kgDOPf-4jA",
@@ -30863,7 +30871,7 @@
         "pullRequestReviews": 0,
         "repositoryCreations": 0
       },
-      "metadataFetchedAt": 1780022910456
+      "metadataFetchedAt": 1780108912937
     },
     {
       "id": "R_kgDOQREvnw",
@@ -30920,7 +30928,7 @@
         "pullRequestReviews": 0,
         "repositoryCreations": 0
       },
-      "metadataFetchedAt": 1780022910456
+      "metadataFetchedAt": 1780108912937
     }
   ],
   "repoMetrics": {
@@ -30984,9 +30992,9 @@
     "traffic": {
       "repoViews": 28,
       "repoViewUniques": 1,
-      "reposCompleted": 13,
+      "reposCompleted": 12,
       "reposPending": 0,
-      "reposFailed": 0
+      "reposFailed": 1
     },
     "repoStats": {
       "totalRepos": 13,
@@ -31043,9 +31051,9 @@
       "totalTopics": 0,
       "topTopics": [],
       "allTopics": [],
-      "contributionsThisYear": 520,
+      "contributionsThisYear": 522,
       "contributionsLastYear": 271,
-      "yearOverYearGrowth": 91.88,
+      "yearOverYearGrowth": 92.62,
       "mostProductiveMonth": {
         "month": "2026-04",
         "contributions": 214
@@ -31056,9 +31064,9 @@
     "readmeSummary": {
       "name": "Jesper Holmberg",
       "username": "Jepsterrr",
-      "totalContributions": 808,
-      "currentStreak": 141,
-      "longestStreak": 141,
+      "totalContributions": 810,
+      "currentStreak": 142,
+      "longestStreak": 142,
       "topLanguages": [
         {
           "languageName": "TypeScript",
@@ -31094,19 +31102,19 @@
       "starsReceived": 2,
       "forksReceived": 0,
       "activeRepos": 4,
-      "refreshedAt": "2026-05-29T02:49:40.027Z",
-      "complete": true
+      "refreshedAt": "2026-05-30T02:43:04.042Z",
+      "complete": false
     },
     "cards": [
       {
         "id": "total-contributions",
         "label": "Total contributions",
-        "value": "808"
+        "value": "810"
       },
       {
         "id": "current-streak",
         "label": "Current streak",
-        "value": "141 days"
+        "value": "142 days"
       },
       {
         "id": "languages",
@@ -31164,7 +31172,7 @@
       },
       {
         "period": "2026",
-        "contributions": 520
+        "contributions": 522
       }
     ],
     "highlights": [
@@ -31198,8 +31206,8 @@
         {
           "id": "contributions",
           "title": "Contribution history",
-          "metric": "808",
-          "supportingText": "141 day longest streak"
+          "metric": "810",
+          "supportingText": "142 day longest streak"
         },
         {
           "id": "repositories",
@@ -31224,11 +31232,11 @@
     "redactedOptionalMetrics": 0
   },
   "collectionStatus": {
-    "startedAt": 1780022893240,
-    "finishedAt": 1780022980027,
-    "durationMs": 86787,
+    "startedAt": 1780108895731,
+    "finishedAt": 1780108984042,
+    "durationMs": 88311,
     "coreComplete": true,
-    "complete": true,
+    "complete": false,
     "cache": {
       "stablePath": ".github-profile-stats/cache.json",
       "volatilePath": ".github-profile-stats/volatile-cache.json",
@@ -31239,9 +31247,9 @@
     },
     "backfill": {
       "enabled": true,
-      "completedThisRun": 26,
+      "completedThisRun": 25,
       "pending": 0,
-      "failedThisRun": 0,
+      "failedThisRun": 1,
       "skippedThisRun": 0
     },
     "rateLimit": {
@@ -31249,13 +31257,13 @@
         "limit": 5000,
         "remaining": 4966,
         "used": 34,
-        "resetAt": "2026-05-29T03:48:13Z"
+        "resetAt": "2026-05-30T03:41:35Z"
       },
       "rest": {
         "limit": 5000,
         "remaining": 4948,
         "used": 52,
-        "resetAt": "2026-05-29T03:48:36.000Z"
+        "resetAt": "2026-05-30T03:41:59.000Z"
       }
     },
     "warnings": [],
@@ -31277,7 +31285,7 @@
     "linesAdded": 0,
     "linesDeleted": 0,
     "commitCount": 0,
-    "totalCommits": 722,
+    "totalCommits": 724,
     "totalPullRequests": 4,
     "totalPullRequestReviews": 1,
     "codeByteTotal": 1809698,
@@ -31333,14 +31341,14 @@
     "repositoriesContributedTo": 2,
     "discussionsStarted": 0,
     "discussionsAnswered": 0,
-    "totalContributions": 808,
+    "totalContributions": 810,
     "contributionStats": {
-      "longestStreak": 141,
-      "currentStreak": 141,
+      "longestStreak": 142,
+      "currentStreak": 142,
       "mostActiveDay": "Tuesday",
       "averagePerDay": 0.26,
-      "averagePerWeek": 1.8,
-      "averagePerMonth": 7.73,
+      "averagePerWeek": 1.81,
+      "averagePerMonth": 7.74,
       "monthlyBreakdown": [
         {
           "month": "2017-11",
@@ -31752,7 +31760,7 @@
         },
         {
           "month": "2026-05",
-          "contributions": 78
+          "contributions": 80
         }
       ],
       "yearlyBreakdown": [
@@ -31794,7 +31802,7 @@
         },
         {
           "year": "2026",
-          "contributions": 520
+          "contributions": 522
         }
       ],
       "peakDay": {
@@ -31857,23 +31865,23 @@
       "totalTopics": 0,
       "topTopics": [],
       "allTopics": [],
-      "contributionsThisYear": 520,
+      "contributionsThisYear": 522,
       "contributionsLastYear": 271,
-      "yearOverYearGrowth": 91.88,
+      "yearOverYearGrowth": 92.62,
       "mostProductiveMonth": {
         "month": "2026-04",
         "contributions": 214
       }
     },
     "contributionsCollection": {
-      "totalCommitContributions": 722,
+      "totalCommitContributions": 724,
       "restrictedContributionsCount": 69,
       "totalIssueContributions": 0,
       "totalRepositoryContributions": 11,
       "totalPullRequestContributions": 4,
       "totalPullRequestReviewContributions": 1,
       "contributionCalendar": {
-        "totalContributions": 808,
+        "totalContributions": 810,
         "weeks": [
           {
             "contributionDays": [
@@ -46242,8 +46250,12 @@
                 "date": "2026-05-28"
               },
               {
-                "contributionCount": 0,
+                "contributionCount": 2,
                 "date": "2026-05-29"
+              },
+              {
+                "contributionCount": 0,
+                "date": "2026-05-30"
               }
             ]
           }
@@ -46360,7 +46372,7 @@
         "isPrivate": false,
         "primaryLanguage": "TypeScript",
         "topics": [],
-        "updatedAt": "2026-05-28T02:53:47Z",
+        "updatedAt": "2026-05-29T02:53:59Z",
         "createdAt": "2026-01-10T16:25:29Z"
       },
       {
@@ -46394,6 +46406,6 @@
     ],
     "closedIssues": 1,
     "openIssues": 0,
-    "fetchedAt": 1780022980027
+    "fetchedAt": 1780108984042
   }
 }
